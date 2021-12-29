@@ -24,6 +24,9 @@ public class MathUntilLive {
         System.out.println("Expected: 0! =  1; actual: " + MathUntil.getFactorial(0));
         // MathUntil.getFactorial(-5);  Ném ngoại lệ, ai biểu đưa cà chờn làm chi
    
+        //Thêm code sau lần đầu tiên làm chuyện ấy - code lên server 7:54 PM 29/12/2021
+        System.out.println("Expected: 1! =  1; actual: " + MathUntil.getFactorial(1));
+        System.out.println("Expected: 3! =  6; actual: " + MathUntil.getFactorial(3));
         
     }
     
